@@ -1,7 +1,7 @@
 # Roteiro-Pratico-Clean-Architecture-com-TypeScript-e-Node.js.
 
 ### Autores:
-##### André Guilherme de Almeida Macedo - Matrícula: 20203018875
+#### André Guilherme de Almeida Macedo - Matrícula: 20203018875
 #### Celso França Neto - Matrícula: 20203018570
 #### Gabriel de Medeiros Ribeiro - Matrícula: 20193025181
 #### Jorge Hiroki de Castro Sato - Matrícula: 20203018650
