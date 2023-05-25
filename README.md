@@ -1,10 +1,18 @@
 # Roteiro-Pr-tico-Clean-Architecture-com-TypeScript-e-Node.js.
 
 
-# I. Introdução:
+### I. Introdução:
+
+  Clean Architecture é um conceito desenvolvido por Robert C. Martin, conhecido como Uncle Bob, e é amplamente utilizado na indústria para criar sistemas escaláveis e de alta qualidade. Ao seguir os princípios da Clean Architecture, é possível obter um código mais flexível, fácil de entender e adaptável a mudanças futuras.
+
+  Neste roteiro, vamos explorar os fundamentos e a implementação da Clean Architecture, uma abordagem de design de software que promove a separação de preocupações e a manutenção de um código limpo, modular e testável. Iremos nos aprofundar nos princípios e benefícios da Clean Architecture, bem como forneceremos orientações práticas sobre como aplicar esses conceitos em um projeto real usando TypeScript e Node.js. 
+
+  Apresentaremos como estruturar seu código em camadas, definir a lógica de negócios de forma isolada, lidar com a interação com bancos de dados e serviços externos, e criar interfaces de usuário eficientes. Ao final deste roteiro, você estará familiarizado com os princípios da Clean Architecture e será capaz de aplicá-los em seus projetos, resultando em um software mais robusto, testável e de fácil manutenção.
+
+  Vamos iniciar explorando os fundamentos do Clean Architecture e os benefícios que essa abordagem pode trazer para o desenvolvimento de software.
 
 
-# II. Fundamentos do Clean Architecture
+### II. Fundamentos do Clean Architecture
 
   Antes da implementação prática da Clean Architecture com TypeScript e Node.js, é necessário compreender os fundamentos por trás dessa abordagem de design de software. Iremos descrever os principais conceitos e princípios da Clean Architecture.
 
@@ -134,4 +142,4 @@ Ao estruturar seu projeto com base nessas camadas, você estará seguindo os pri
 ### V. Implementação do Projeto
 
 
-## VI. Considerações Finais
+### VI. Considerações Finais
