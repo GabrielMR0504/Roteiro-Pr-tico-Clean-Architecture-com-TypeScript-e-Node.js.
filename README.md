@@ -28,7 +28,7 @@ Alguns conceitos básicos e importantes relacionados ao tema são:
  * Escalabilidade: A arquitetura de software deve permitir que o sistema seja escalável, ou seja, capaz de lidar com o aumento da carga e do número de usuários. Isso pode ser alcançado por meio de técnicas como a divisão em camadas, a utilização de balanceamento de carga e a distribuição de tarefas entre vários servidores.
  * Segurança: A segurança é um aspecto crítico da arquitetura de software. É necessário projetar o sistema de forma a proteger os dados sensíveis, prevenir ataques e garantir a integridade e a confidencialidade das informações. Isso envolve a implementação de práticas de autenticação, autorização e criptografia adequadas.
 
-#### B. Princípios do Clean Architecture:
+### B. Princípios do Clean Architecture:
  * Independência de Frameworks: como manter a lógica de negócio isolada de frameworks externos, garantindo flexibilidade e portabilidade.
  * Testabilidade: a importância de projetar um sistema que seja facilmente testável, permitindo a criação de testes unitários e de integração eficazes.
  * Independência de tecnologia: como a Clean Architecture permite que as diferentes tecnologias utilizadas no projeto possam ser substituídas ou atualizadas sem afetar a lógica central do sistema.
