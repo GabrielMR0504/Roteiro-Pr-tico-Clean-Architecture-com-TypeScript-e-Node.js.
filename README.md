@@ -1,10 +1,10 @@
-###### Roteiro-Pr-tico-Clean-Architecture-com-TypeScript-e-Node.js.
+# Roteiro-Pr-tico-Clean-Architecture-com-TypeScript-e-Node.js.
 
 
-#### I. Introdução:
+# I. Introdução:
 
 
-#### II. Fundamentos do Clean Architecture
+# II. Fundamentos do Clean Architecture
 
   Antes da implementação prática da Clean Architecture com TypeScript e Node.js, é necessário compreender os fundamentos por trás dessa abordagem de design de software. Iremos descrever os principais conceitos e princípios da Clean Architecture.
 
