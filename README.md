@@ -16,6 +16,7 @@
 
   Antes da implementação prática da Clean Architecture com TypeScript e Node.js, é necessário compreender os fundamentos por trás dessa abordagem de design de software. Iremos descrever os principais conceitos e princípios da Clean Architecture.
 
+
 ### A. Conceitos básicos de arquitetura de software:
 A arquitetura de software refere-se à estrutura global de um sistema de software e aos princípios fundamentais que guiam o seu design.
 Alguns conceitos básicos e importantes relacionados ao tema são:
