@@ -8,7 +8,7 @@
 
 Antes da implementação prática da Clean Architecture com TypeScript e Node.js, é necessário compreender os fundamentos por trás dessa abordagem de design de software. Iremos descrever os principais conceitos e princípios da Clean Architecture.
 
-A. Conceitos básicos de arquitetura de software:
+## A. Conceitos básicos de arquitetura de software:
 A arquitetura de software refere-se à estrutura global de um sistema de software e aos princípios fundamentais que guiam o seu design.
 Alguns conceitos básicos e importantes relacionados ao tema são:
  * Modularidade: é a divisão do sistema em módulos independentes, cada um responsável por uma funcionalidade específica.
@@ -19,7 +19,7 @@ Alguns conceitos básicos e importantes relacionados ao tema são:
  * Escalabilidade: A arquitetura de software deve permitir que o sistema seja escalável, ou seja, capaz de lidar com o aumento da carga e do número de usuários. Isso pode ser alcançado por meio de técnicas como a divisão em camadas, a utilização de balanceamento de carga e a distribuição de tarefas entre vários servidores.
  * Segurança: A segurança é um aspecto crítico da arquitetura de software. É necessário projetar o sistema de forma a proteger os dados sensíveis, prevenir ataques e garantir a integridade e a confidencialidade das informações. Isso envolve a implementação de práticas de autenticação, autorização e criptografia adequadas.
 
-B. Princípios do Clean Architecture:
+## B. Princípios do Clean Architecture:
  * Independência de Frameworks: como manter a lógica de negócio isolada de frameworks externos, garantindo flexibilidade e portabilidade.
  * Testabilidade: a importância de projetar um sistema que seja facilmente testável, permitindo a criação de testes unitários e de integração eficazes.
  * Independência de tecnologia: como a Clean Architecture permite que as diferentes tecnologias utilizadas no projeto possam ser substituídas ou atualizadas sem afetar a lógica central do sistema.
@@ -27,7 +27,7 @@ B. Princípios do Clean Architecture:
  * Independência de Banco de Dados: O acesso ao banco de dados deve ser isolado em uma camada separada, de modo que as regras de negócio não dependam de um banco de dados específico. Isso permite que diferentes tecnologias de persistência possam ser usadas sem afetar o restante do sistema.
  * Princípio da Dependência Inversa (DIP): O princípio DIP estabelece que as dependências devem ser direcionadas para abstrações, não para implementações concretas. Isso promove um acoplamento fraco e permite que as implementações possam ser facilmente substituídas sem afetar outras partes do sistema.
 
-C. Benefícios e vantagens do uso de Clean Architecture:
+## C. Benefícios e vantagens do uso de Clean Architecture:
  * Manutenção: como a Clean Architecture promove um código limpo e bem organizado, facilitando a manutenção contínua do sistema.
  * Testabilidade: a separação de preocupações e a dependência inversa possibilitam a criação de testes automatizados mais eficientes.
  * Escalabilidade: a arquitetura em camadas permite que o sistema seja escalável, com a possibilidade de adicionar ou modificar funcionalidades sem afetar o restante do código.
@@ -36,7 +36,7 @@ C. Benefícios e vantagens do uso de Clean Architecture:
  * Foco nas Regras de Negócio: A arquitetura limpa coloca as regras de negócio no centro do sistema. Isso facilita a compreensão do propósito e das funcionalidades do sistema, além de simplificar a evolução das regras de negócio ao longo do tempo.
  * Facilidade de Onboarding de Desenvolvedores: A arquitetura limpa fornece uma estrutura organizada e clara, o que facilita a entrada de novos desenvolvedores no projeto, pois a utilização dela facilita a compreensão dos fluxos e interação do sistema.
 
-D. Visão geral da estrutura de um projeto utilizando Clean Architecture:
+## D. Visão geral da estrutura de um projeto utilizando Clean Architecture:
  * Camada de Domínio: concentra as regras de negócio e entidades principais do sistema.
  * Camada de Casos de Uso: implementa os casos de uso específicos do sistema, orquestrando a interação entre as entidades e a infraestrutura.
  * Camada de Infraestrutura: contém a implementação dos adaptadores externos, como bancos de dados e serviços externos.
