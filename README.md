@@ -200,3 +200,17 @@ Ao estruturar seu projeto com base nessas camadas, você estará seguindo os pri
 
 
 ### VI. Considerações Finais
+
+Exploramos os fundamentos e a implementação prática da Clean Architecture com TypeScript e Node.js. Ao seguir esse padrão de arquitetura, você poderá desenvolver sistemas modulares, flexíveis e de fácil manutenção. A Clean Architecture promove a separação clara de responsabilidades, permitindo que as diferentes camadas do sistema sejam independentes umas das outras. Isso facilita a substituição ou atualização de componentes, bem como a realização de testes automatizados eficazes.
+
+As seguintes práticas são importantes para implementar a Clean Architecture:
+
+- Separe as responsabilidades de cada camada: a camada de domínio deve conter as entidades e regras de negócio, a camada de casos de uso orquestra a interação entre as entidades, a camada de infraestrutura lida com recursos externos e a camada de interfaces de usuário fornece interfaces para interação com os usuários.
+
+- Mantenha as dependências externas isoladas: evite que as camadas dependam diretamente de frameworks ou bibliotecas externas. Use adaptadores ou interfaces para se comunicar com recursos externos e mantenha a flexibilidade de substituição de implementações.
+
+- Priorize a testabilidade: a separação de responsabilidades em camadas facilita a criação de testes unitários e de integração, permitindo uma cobertura abrangente dos diferentes componentes do sistema.
+
+- Mantenha o código limpo e bem organizado: siga as boas práticas de programação, como nomes descritivos de variáveis e funções, funções curtas e coesas, e mantenha um estilo de código consistente.
+
+A Clean Architecture é um guia e pode ser adaptada às necessidades específicas do seu projeto. É importante entender os princípios e adaptá-los de acordo com o contexto.
