@@ -141,60 +141,7 @@ A Clean Architecture propõe uma divisão clara e estruturada das responsabilida
 Ao estruturar seu projeto com base nessas camadas, você estará seguindo os princípios da Clean Architecture, permitindo um código modular, flexível e testável. Na próxima seção, iremos explorar a implementação de cada camada com exemplos práticos usando TypeScript e Node.js.
 
 
-### IV. Definindo as Camadas da Arquitetura
-# A Clean Architecture
 
-A Clean Architecture propõe uma divisão clara e estruturada das responsabilidades em diferentes camadas. Cada camada possui um conjunto específico de responsabilidades, permitindo a separação de preocupações e a manutenção de um código modular e testável. Nesta seção, iremos definir as camadas da arquitetura e suas principais responsabilidades.
-
-## A. Camada de Domínio
-
-**Responsabilidades:**
-- Define as entidades principais do sistema, representando os conceitos centrais da aplicação.
-- Contém as regras de negócio e a lógica fundamental do sistema.
-- Evita dependências externas, mantendo-se independente de frameworks ou bibliotecas.
-
-**Ações recomendadas:**
-- Crie as classes ou interfaces para representar as entidades do domínio.
-- Defina as regras de negócio e a lógica relacionada às entidades do sistema.
-- Evite a dependência de bibliotecas externas nesta camada.
-
-## B. Camada de Casos de Uso
-
-**Responsabilidades:**
-- Implementa os casos de uso específicos da aplicação, orquestrando a interação entre as entidades do domínio.
-- Manipula as regras de negócio e coordena as ações entre diferentes entidades.
-- Fornece uma interface para a interação entre a camada de interface de usuário e a camada de domínio.
-
-**Ações recomendadas:**
-- Implemente as classes ou funções que representam os casos de uso.
-- Utilize as entidades do domínio para executar a lógica de negócio específica.
-- Mantenha esta camada livre de detalhes de infraestrutura ou implementações específicas.
-
-## C. Camada de Infraestrutura
-
-**Responsabilidades:**
-- Lida com detalhes de implementação técnica, como acesso a bancos de dados, serviços externos, APIs, entre outros.
-- Implementa os adaptadores necessários para se comunicar com os recursos externos.
-- Gerencia a persistência de dados e a comunicação com serviços externos.
-
-**Ações recomendadas:**
-- Implemente os adaptadores necessários para o acesso a bancos de dados, serviços externos, APIs, entre outros.
-- Utilize bibliotecas apropriadas para interagir com recursos externos, como ORM (Object-Relational Mapping) para acesso a bancos de dados.
-- Mantenha essa camada isolada, evitando referências diretas a outras camadas.
-
-## D. Camada de Interfaces de Usuário
-
-**Responsabilidades:**
-- Fornecer interfaces para a interação com os usuários, como APIs RESTful, interfaces gráficas, entre outros.
-- Lida com validação de entrada, formatação de saída e tratamento de erros específicos da interface de usuário.
-- Interage com os casos de uso para executar as ações solicitadas pelos usuários.
-
-**Ações recomendadas:**
-- Implemente os controladores ou classes responsáveis pela lógica de interface de usuário.
-- Defina as rotas da API, tratando as solicitações recebidas e chamando os casos de uso correspondentes.
-- Realize a validação de entrada, tratamento de erros e formatação de saída de acordo com as necessidades da interface.
-
-Ao estruturar seu projeto com base nessas camadas, você estará seguindo os princípios da Clean Architecture, permitindo um código modular, flexível e testável. Na próxima seção, iremos explorar a implementação de cada camada com exemplos práticos usando TypeScript e Node.js.
 
 ### V. Implementação do Projeto
 
